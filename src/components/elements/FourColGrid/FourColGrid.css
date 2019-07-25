@@ -1,0 +1,40 @@
+.ybm-grid h1 {
+  font-family: 'Abel', sans-serif;
+  font-size:42px;
+}
+
+.ybm-grid-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  position: relative;
+}
+
+.ybm-grid-element {
+  animation: animateGrid 0.5s;
+}
+
+@keyframes animateGrid {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ybm-grid-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ybm-grid h1 {
+    font-size:22px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .ybm-grid-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
