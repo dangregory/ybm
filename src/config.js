@@ -1,8 +1,11 @@
 // Configuration for TMDB
-// To se the latest configuration fetch it from https://api.themoviedb.org/3/configuration?api_key=019e8f375549e0bbd4a4191862ebc88f
+// To se the latest configuration fetch it from https://api.themoviedb.org/3/configuration?api_key=1de8b09e6bcd407e5715bde1deb13560
 
 const API_URL = 'https://api.themoviedb.org/3/';
-const API_KEY = '844dba0bfd8f3a4f3799f6130ef9e335';
+const API_KEY = '1de8b09e6bcd407e5715bde1deb13560';
+const ACCOUNT_ID = '5d3c9cceede1b00013ebb5ca';
+const SESSION_ID = '83f07355234af5efb80919f876a44bd4a102783d';
+const REQUEST_TOKEN = '5fa1a32bb1c115ee49087a41cd17b4ac0c3eecee';
 
 // Images
 // An image URL looks like this example:
@@ -19,6 +22,9 @@ const POSTER_SIZE = 'w500';
 export {
   API_URL,
   API_KEY,
+  ACCOUNT_ID,
+  SESSION_ID,
+  REQUEST_TOKEN,
   IMAGE_BASE_URL,
   BACKDROP_SIZE,
   POSTER_SIZE

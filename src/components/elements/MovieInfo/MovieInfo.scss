@@ -5,6 +5,39 @@
   padding: 40px 20px;
   box-sizing: border-box;
   animation: animateMovieinfo 1s;
+  .content {
+    max-width: 1280px;
+    min-height: 450px;
+    margin: 0 auto;
+    background:rgba(0, 0, 0, 0.65);
+    border-radius: 20px;
+    position: relative;
+  }
+  .thumb {
+    width: 300px;
+    float: left;
+  }
+  .text {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    color: #fff;
+    overflow: hidden;
+    h1 {
+      font-family: 'Abel', sans-serif;
+      font-size: 48px;
+      margin: 0;
+    }
+    h3 {
+      font-size: 16px;
+      line-height: 0;
+      margin-top: 30px;
+    }
+    p {
+      font-family: 'Abel', sans-serif;
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
 }
 
 @keyframes animateMovieinfo {
@@ -14,45 +47,6 @@
   to {
     opacity: 1;
   }
-}
-
-.ybm-movieinfo-content {
-  max-width: 1280px;
-  min-height: 450px;
-  margin: 0 auto;
-  background: rgb(0, 0, 0, 0.7);
-  border-radius: 20px;
-  position: relative;
-}
-
-.ybm-movieinfo-thumb {
-  width: 300px;
-  float: left;
-}
-
-.ybm-movieinfo-text {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 40px;
-  color: #fff;
-  overflow: hidden;
-}
-
-.ybm-movieinfo-text h1 {
-  font-family: 'Abel', sans-serif;
-  font-size: 48px;
-  margin: 0;
-}
-
-.ybm-movieinfo-text h3 {
-  font-size: 16px;
-  line-height: 0;
-  margin-top: 30px;
-}
-
-.ybm-movieinfo-text p {
-  font-family: 'Abel', sans-serif;
-  font-size: 18px;
-  line-height: 26px;
 }
 
 .ybm-rating {
@@ -104,17 +98,17 @@ meter::-webkit-meter-even-less-good-value {
   .ybm-movieinfo {
     min-height: 600px;
     height: auto;
-  }
-
-  .ybm-movieinfo-thumb {
-    width: 100% !important;
+    .thumb {
+      width: 100% !important;
+    }
+    .text {
+      h1 {
+        font-size: 32px;
+      } 
+    }
   }
 
   .fa-film {
     display: none;
   }
-
-  .ybm-movieinfo-text h1 {
-    font-size: 32px;
-  }  
 }
