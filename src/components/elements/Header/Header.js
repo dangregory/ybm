@@ -7,7 +7,7 @@ const Header = () => {
         <div className="ybm-header">
             <div className="ybm-header-content">
                 <Link to="/">
-                    <img className="ybm-logo" src="./images/reactMovie_logo.png" alt="ybm-logo" />
+                    <img className="ybm-logo" src="./images/ybm_logo.png" alt="ybm-logo" />
                 </Link>
                 <img className="ybm-tmdb-logo" src="./images/tmdb_logo.png" alt="tmdb-logo" />
             </div>
