@@ -34,7 +34,7 @@ yarn test
 ## Built With
 
 * [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-* [Yarn] (https://yarnpkg.com/) - Fast, reliable, and secure dependency management.
+* [Yarn](https://yarnpkg.com/) - Fast, reliable, and secure dependency management.
 * [TMDB](https://www.themoviedb.org/) - A popular, user editable database for movies and TV shows.
 
 ## License
