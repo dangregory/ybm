@@ -79,8 +79,6 @@ class Movie extends Component {
                 : null }
                 {!actors && !loading ? <h1>No Movie Found!</h1> : null}
                 {loading ? <Spinner /> : null}
-                }            
-                }
             </div>
         )
     }
